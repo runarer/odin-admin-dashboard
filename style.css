@@ -1,3 +1,8 @@
+h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     display: grid;
     grid-template-columns: 250px 1fr;
@@ -22,5 +27,43 @@ main {
     background-color: #e2e8f0;
     grid-row: 2 / -1;
     grid-column: 2 / -1;
+
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    grid-template-rows: 2rem 400px 2rem 1fr;
+    gap: 12px;
+    padding: 12px;
 }
 
+main h1 {
+    align-self: center;
+}
+
+.articles {
+    grid-row: 2 / -1;
+    grid-column: 1;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 200px;
+    gap:12px;
+
+}
+
+main article {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border-left: 10px solid #f0b325;
+    
+}
+
+.announcements {
+    grid-row: 2 / 3;
+    grid-column: 2;
+}
+
+.trending {
+    grid-row: -2 / -1;
+    grid-column: 2;
+}
