@@ -107,9 +107,19 @@ main article {
 .announcements {
     grid-row: 2 / 3;
     grid-column: 2;
+    background-color: white;
+    padding: 12px;
+    border-radius: 6px;
 }
 
 .trending {
     grid-row: -2 / -1;
     grid-column: 2;
+    background-color: white;
+    padding: 12px;
+    border-radius: 6px;
+}
+.trending img {
+    height: 32px;
+    width: 32px;
 }
