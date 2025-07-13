@@ -128,7 +128,14 @@ main article {
 
     display: grid;
     grid-template-rows: 2em 1fr 30px;
-    
+
+    /* box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.36); */
+}
+
+main article,
+.trending,
+.announcements{
+    box-shadow: 3px 10px 10px 3px rgba(0,0,0,0.16);
 }
 
 .mini-icons {
